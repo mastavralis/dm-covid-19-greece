@@ -16,7 +16,7 @@
     - Polynomial Rregression
 
 ###### Notes:
-* The analysis is customised to read, analyze and predict data only for Greece. However, changing the "country" parameter on In [139] the Model can fetch and analyze data for other countries as well, but with a possibility for wrong data visualization. Thus, it is not recommended by the author to perform analysis for other countries but Greece.
+* The analysis is customised to read, analyze and predict data only for Greece. However, changing the "country" parameter on In [139] the Model can fetch and analyze data for other countries as well, but with a probability of wrong data visualization or a malfunction of the Model. Thus, it is not recommended by the author to perform analysis for other countries but Greece.
 
 ## Tools & Libraries
 + Required Tools
