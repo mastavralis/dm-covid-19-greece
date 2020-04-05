@@ -17,7 +17,8 @@
     - Polynomial Rregression
 
 ###### Notes:
-* The analysis is customised to read, analyze and predict data only for Greece. However, changing the "country" parameter on In [139] the Model can fetch and analyze data for other countries as well, but with a possibility for wrong data visualization. Thus, it is not recommended by the author to perform analysis for other countries but Greece.
+* The analysis is customised to read, analyze and predict data only for Greece. However, changing the "country" parameter on In [139] the Model can fetch and analyze data for other countries as well, but with a probability of wrong data visualization or a
+malfunction of the Model. Thus, it is not recommended by the author to perform analysis for other countries but Greece.
 
 
 ```python
@@ -104,6 +105,28 @@ plt.tight_layout()
 ![png](output_10_0.png)
 
 
+### Confrimed Cases Today
+
+
+```python
+current_day = country_df.iloc[[-1,]]
+print("Confirmed Cases Today {0}:".format(current_day['Confirmed'].values[0]))
+```
+
+    Confirmed Cases Today 1673.0:
+    
+
+### Deaths Today
+
+
+```python
+current_day = country_df.iloc[[-1,]]
+print("Deaths Today {0}:".format(current_day['Deaths'].values[0]))
+```
+
+    Deaths Today 68.0:
+    
+
 ### Deaths and Death Ratio
 
 
@@ -116,7 +139,7 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](output_16_0.png)
 
 
 ### Mortality Rate
@@ -150,7 +173,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](output_20_0.png)
 
 
 ### Active Cases vs Recovered
@@ -171,7 +194,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](output_22_0.png)
 
 
 ### Show the Daily Cases
@@ -191,7 +214,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](output_24_0.png)
 
 
 ### Perform a very simple Prediction With Machine Learning
@@ -226,7 +249,7 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![png](output_27_0.png)
 
 
 #### Predict Cases Model
@@ -255,7 +278,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](output_29_0.png)
 
 
 ###### Predict Cases for a specific Day
@@ -298,7 +321,7 @@ plt.show()
 ```
 
 
-![png](output_29_0.png)
+![png](output_33_0.png)
 
 
 #### Predict Deaths Model
@@ -326,7 +349,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](output_35_0.png)
 
 
 ###### Predict Deaths for a specific Day
