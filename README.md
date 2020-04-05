@@ -31,7 +31,7 @@
     - matplotlib.pyplot (R)
     - seaborn (O)
     - glob    (O)
-    - __future__ | absolute_import, division, print_function, unicode_literals (O)
+    - __ future __ | absolute_import, division, print_function, unicode_literals (O)
     - pandas.plotting | register_matplotlib_converters (R)
     - sklearn.linear_model | LinearRegression    (R)
     - sklearn.preprocessing | PolynomialFeatures (R)
