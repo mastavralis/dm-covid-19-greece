@@ -286,9 +286,9 @@ plt.show()
 
 ```python
 # Predicting a new result with Polynomial Regression
-# "current_day" is for today otherwise use an interget number greater tha today day
-current_day = len(country_df)+1
-prediction = lin2.predict(poly.fit_transform([[current_day]]))
+# "next_day" is for today otherwise use an interget number greater tha today day
+next_day = len(country_df)+1
+prediction = lin2.predict(poly.fit_transform([[next_day]]))
 
 # Print the Predicted number rounded
 print("Cases Prediction for the given day is {0}".format(round(prediction[0])))
@@ -359,9 +359,9 @@ plt.show()
 
 ```python
 # Predicting a new result with Polynomial Regression
-# "current_day" is for today otherwise use an interget number greater tha today day
-current_day = len(country_df)+1
-prediction = lin2.predict(poly.fit_transform([[current_day]]))
+# "next_day" is for today otherwise use an interget number greater tha today day
+next_day = len(country_df)+1
+prediction = lin2.predict(poly.fit_transform([[next_day]]))
 # Print the Predicted number rounded
 print("Deaths Prediction for the given day is {0}".format(round(prediction[0])))
 ```
