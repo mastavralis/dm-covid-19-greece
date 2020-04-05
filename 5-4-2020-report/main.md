@@ -281,12 +281,14 @@ plt.show()
 ![png](output_29_0.png)
 
 
-###### Predict Cases for a specific Day
+###### Predict Cases for a specific Day or Today
 
 
 ```python
-# Predicting a new result with Polynomial Regression 
-prediction = lin2.predict(poly.fit_transform([[39]]))
+# Predicting a new result with Polynomial Regression
+# "current_day" is for today otherwise use an interget number greater tha today day
+current_day = len(country_df)
+prediction = lin2.predict(poly.fit_transform([[current_day]]))
 
 # Print the Predicted number rounded
 print("Cases Prediction for the given day is {0}".format(round(prediction[0])))
@@ -352,15 +354,17 @@ plt.show()
 ![png](output_35_0.png)
 
 
-###### Predict Deaths for a specific Day
+###### Predict Deaths for a specific Day or Today
 
 
 ```python
-# Predicting a new result with Polynomial Regression 
-prediction = lin2.predict(poly.fit_transform([[85]]))
+# Predicting a new result with Polynomial Regression
+# "current_day" is for today otherwise use an interget number greater tha today day
+current_day = len(country_df)
+prediction = lin2.predict(poly.fit_transform([[current_day]]))
 # Print the Predicted number rounded
 print("Deaths Prediction for the given day is {0}".format(round(prediction[0])))
 ```
 
-    Deaths Prediction for the given day is 453.0
+    Deaths Prediction for the given day is 68.0
     
