@@ -40,3 +40,7 @@
 
 Open an anaconda CMD and run: ***jupyter notebook***
 A locall link will be created in order to navigate to the Jupyter project through a web browser.
+
+
+### Daily Reports
+- [2020-04-05 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/5-4-2020-report/main.md)
