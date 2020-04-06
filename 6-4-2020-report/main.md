@@ -387,7 +387,7 @@ output3 = "Total Deaths Prediction tomorrow {0} is {1}".format(tomorrow,int(pred
 output3 = int(prediction[0])
 ```
 
-# Predictions
+# Predictions Report (2020-04-06)
 
 #### Total Cases Prediction
 
