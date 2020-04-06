@@ -391,11 +391,11 @@ output3 = int(prediction[0])
 
 #### Total Cases Prediction
 
-  + Today: 1865
-  + Tomorrow: 1958
+  + Today: **1865**
+  + Tomorrow: **1958**
   
   
 #### Total Death Prediction
 
-  + Today: 79
-  + Tomorrow: 86
+  + Today: **79**
+  + Tomorrow: **86**
