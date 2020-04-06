@@ -260,8 +260,8 @@ plt.show()
 
 
 ```python
-days = np.arange(39, 101)
-
+current_day = len(country_df)
+days = np.arange(current_day, 70)
 pred = []
 next_days = []
 
@@ -345,7 +345,7 @@ plt.show()
 
 
 ```python
-days = np.arange(39,101)
+days = np.arange(current_day,101)
 pred = []
 next_days = []
 
