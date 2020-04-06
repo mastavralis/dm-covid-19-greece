@@ -22,7 +22,7 @@ malfunction of the Model. Thus, it is not recommended by the author to perform a
 
 ###### Daily Reports
 - For Reports & Predictions history, check the Readme.md File of the Repo.
-- Current Report [2020-04-05](https://github.com/mastavralis/dm-covid-19-greece/blob/master/5-4-2020-report/main.md)
+- Current Report [2020-04-06](https://github.com/mastavralis/dm-covid-19-greece/blob/master/6-4-2020-report/main.md)
 
 
 ```python
