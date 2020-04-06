@@ -295,22 +295,18 @@ next_day = len(country_df)+1
 prediction = lin2.predict(poly.fit_transform([[next_day]]))
 today = datetime.date.today()
 # Print the Predicted number rounded
-print("Total Cases Prediction for today {0} is {1}".format(today,round(prediction[0])))
+# output0 = "Total Cases Prediction today {0} is {1}".format(today,int(prediction[0]))
+output0 = int(prediction[0])
 ```
-
-    Total Cases Prediction for today 2020-04-06 is 1865.0
-    
 
 
 ```python
 prediction = lin2.predict(poly.fit_transform([[next_day+1]]))
 tomorrow = today + datetime.timedelta(days=1)
 # Print the Predicted number rounded
-print("Total Cases Prediction for tomorrow {0} is {1}".format(tomorrow,round(prediction[0])))
+# output1 = "Total Cases Prediction tomorrow {0} is {1}".format(tomorrow,int(prediction[0]))
+output1 = int(prediction[0])
 ```
-
-    Total Cases Prediction for tomorrow 2020-04-07 is 1958.0
-    
 
 #### Fit Deaths Model
 
@@ -379,18 +375,27 @@ next_day = len(country_df)+1
 prediction = lin2.predict(poly.fit_transform([[next_day]]))
 today = datetime.date.today()
 # Print the Predicted number rounded
-print("Total Deaths Prediction for today {0} is {1}".format(today,round(prediction[0])))
+# output2 = "Total Deaths Prediction today {0} is {1}".format(today,int(prediction[0]))
+output2 = int(prediction[0])
 ```
-
-    Total Deaths Prediction for today 2020-04-06 is 80.0
-    
 
 
 ```python
 prediction = lin2.predict(poly.fit_transform([[next_day+1]]))
 tomorrow = today + datetime.timedelta(days=1)
-print("Total Deaths Prediction for tomorrow {0} is {1}".format(tomorrow,round(prediction[0])))
+output3 = "Total Deaths Prediction tomorrow {0} is {1}".format(tomorrow,int(prediction[0]))
+output3 = int(prediction[0])
 ```
 
-    Total Deaths Prediction for tomorrow 2020-04-07 is 86.0
-    
+# Predictions
+
+#### Total Cases Prediction
+
+  + Today: **{{output0}}**
+  + Tomorrow: **{{output1}}**
+  
+  
+#### Total Death Prediction
+
+  + Today: **{{output2}}**
+  + Tomorrow: **{{output3}}**
