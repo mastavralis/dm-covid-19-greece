@@ -391,11 +391,76 @@ output3 = int(prediction[0])
 
 #### Total Cases Prediction
 
-  + Today: **1891**
-  + Tomorrow: **1965**
+  + Today: **{{output0}}**
+  + Tomorrow: **{{output1}}**
   
   
 #### Total Death Prediction
 
-  + Today: **85**
-  + Tomorrow: **92**
+  + Today: **{{output2}}**
+  + Tomorrow: **{{output3}}**
+
+# Model Accuracy Evaluation
+
+
+```python
+accur_df = pd.read_csv('dataset/model-accuracy-evaluation.csv', error_bad_lines=False)
+accur_df.head(len(accur_df)-1)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Actual Cases</th>
+      <th>Cases Prediction</th>
+      <th>Cases Accuracy</th>
+      <th>Actual Deaths</th>
+      <th>Deaths Prediction</th>
+      <th>Deaths Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-04-05</td>
+      <td>1735.0</td>
+      <td>1804</td>
+      <td>96%</td>
+      <td>73.0</td>
+      <td>74</td>
+      <td>99%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-04-06</td>
+      <td>1755.0</td>
+      <td>1865</td>
+      <td>94%</td>
+      <td>79.0</td>
+      <td>79</td>
+      <td>100%</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
