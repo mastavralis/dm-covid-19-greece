@@ -391,14 +391,14 @@ output3 = int(prediction[0])
 
 #### Total Cases Prediction
 
-  + Today: **{{output0}}**
-  + Tomorrow: **{{output1}}**
+  + Today: **1891**
+  + Tomorrow: **1965**
   
   
 #### Total Death Prediction
 
-  + Today: **{{output2}}**
-  + Tomorrow: **{{output3}}**
+  + Today: **85**
+  + Tomorrow: **92**
 
 # Model Accuracy Evaluation
 
@@ -412,19 +412,6 @@ accur_df.head(len(accur_df)-1)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
