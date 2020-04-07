@@ -428,9 +428,9 @@ accur_df.head(len(accur_df)-1)
   <tbody>
     <tr>
       <th>0</th>
-      <td>4/5/2020</td>
-      <td>1735.0</td>
-      <td>1804.0</td>
+      <td>5/4/2020</td>
+      <td>1735</td>
+      <td>1804</td>
       <td>96%</td>
       <td>73.0</td>
       <td>74.0</td>
@@ -438,9 +438,9 @@ accur_df.head(len(accur_df)-1)
     </tr>
     <tr>
       <th>1</th>
-      <td>4/6/2020</td>
-      <td>1755.0</td>
-      <td>1865.0</td>
+      <td>6/4/2020</td>
+      <td>1755</td>
+      <td>1865</td>
       <td>94%</td>
       <td>79.0</td>
       <td>79.0</td>
@@ -448,12 +448,12 @@ accur_df.head(len(accur_df)-1)
     </tr>
     <tr>
       <th>2</th>
-      <td>4/7/2020</td>
-      <td>1832.0</td>
-      <td>1891.0</td>
+      <td>7/4/2020</td>
+      <td>1832</td>
+      <td>1891</td>
       <td>97%</td>
-      <td>81.0</td>
-      <td>85.0</td>
+      <td>81</td>
+      <td>85</td>
       <td>95%</td>
     </tr>
   </tbody>
@@ -461,3 +461,8 @@ accur_df.head(len(accur_df)-1)
 </div>
 
 
+
+### Reports History
+- [2020-04-05 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/5-4-2020-report/main.md)
+- [2020-04-06 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/6-4-2020-report/main.md)
+- [2020-04-07 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/7-4-2020-report/main.md)
