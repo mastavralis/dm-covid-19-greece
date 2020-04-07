@@ -391,14 +391,14 @@ output3 = int(prediction[0])
 
 #### Total Cases Prediction
 
-  + Today: **1891**
-  + Tomorrow: **1965**
+  + Today: **{{output0}}**
+  + Tomorrow: **{{output1}}**
   
   
 #### Total Death Prediction
 
-  + Today: **85**
-  + Tomorrow: **92**
+  + Today: **{{output2}}**
+  + Tomorrow: **{{output3}}**
 
 # Model Accuracy Evaluation
 
@@ -412,6 +412,19 @@ accur_df.head(len(accur_df)-1)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -428,23 +441,33 @@ accur_df.head(len(accur_df)-1)
   <tbody>
     <tr>
       <th>0</th>
-      <td>2020-04-05</td>
+      <td>4/5/2020</td>
       <td>1735.0</td>
-      <td>1804</td>
+      <td>1804.0</td>
       <td>96%</td>
       <td>73.0</td>
-      <td>74</td>
+      <td>74.0</td>
       <td>99%</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2020-04-06</td>
+      <td>4/6/2020</td>
       <td>1755.0</td>
-      <td>1865</td>
+      <td>1865.0</td>
       <td>94%</td>
       <td>79.0</td>
-      <td>79</td>
+      <td>79.0</td>
       <td>100%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>4/7/2020</td>
+      <td>1832.0</td>
+      <td>1891.0</td>
+      <td>97%</td>
+      <td>81.0</td>
+      <td>85.0</td>
+      <td>95%</td>
     </tr>
   </tbody>
 </table>
