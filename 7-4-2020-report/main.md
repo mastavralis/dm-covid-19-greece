@@ -391,14 +391,14 @@ output3 = int(prediction[0])
 
 #### Total Cases Prediction
 
-  + Today: **{{output0}}**
-  + Tomorrow: **{{output1}}**
+  + Today: **1891**
+  + Tomorrow: **1965**
   
   
 #### Total Death Prediction
 
-  + Today: **{{output2}}**
-  + Tomorrow: **{{output3}}**
+  + Today: **85**
+  + Tomorrow: **92**
 
 # Model Accuracy Evaluation
 
