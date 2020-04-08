@@ -109,7 +109,7 @@ plt.tight_layout()
 ![png](output_10_0.png)
 
 
-### Confrimed Cases Today
+### Confrimed Cases so far
 
 
 ```python
@@ -120,7 +120,7 @@ print("Confirmed Cases Today {0}:".format(current_day['Confirmed'].values[0]))
     Confirmed Cases Today 1832.0:
     
 
-### Deaths Today
+### Deaths So far
 
 
 ```python
@@ -387,12 +387,12 @@ output3 = "Total Deaths Prediction tomorrow {0} is {1}".format(tomorrow,int(pred
 output3 = int(prediction[0])
 ```
 
-# Predictions
+# Predictions (2020-04-08)
 
 #### Total Cases Prediction
 
   + Today: **1929**
-  + Tomorrow: **1989**
+  + Tomorrow: **1989*
   
   
 #### Total Death Prediction
