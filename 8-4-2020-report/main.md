@@ -120,7 +120,7 @@ print("Confirmed Cases Today {0}:".format(current_day['Confirmed'].values[0]))
     Confirmed Cases Today 1832.0:
     
 
-### Deaths So far
+### Deaths so far
 
 
 ```python
