@@ -387,19 +387,6 @@ output3 = "Total Deaths Prediction tomorrow {0} is {1}".format(tomorrow,int(pred
 output3 = int(prediction[0])
 ```
 
-# Predictions (2020-04-10)
-
-#### Total Cases Prediction
-
-  + Today: **2005**
-  + Tomorrow: **2042**
-  
-  
-#### Total Death Prediction
-
-  + Today: **94**
-  + Tomorrow: **98**
-
 # Model Accuracy Evaluation
 
 
@@ -428,53 +415,63 @@ accur_df.head(len(accur_df)-1)
   <tbody>
     <tr>
       <th>0</th>
-      <td>2020-04-05</td>
-      <td>1735</td>
-      <td>1804</td>
-      <td>96%</td>
-      <td>73</td>
-      <td>74</td>
-      <td>99%</td>
+      <td>5/4/2020</td>
+      <td>1735.0</td>
+      <td>1804.0</td>
+      <td>0.96</td>
+      <td>73.0</td>
+      <td>74.0</td>
+      <td>0.99</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2020-04-06</td>
-      <td>1755</td>
-      <td>1865</td>
-      <td>94%</td>
-      <td>79</td>
-      <td>79</td>
-      <td>100%</td>
+      <td>6/4/2020</td>
+      <td>1755.0</td>
+      <td>1865.0</td>
+      <td>0.94</td>
+      <td>79.0</td>
+      <td>79.0</td>
+      <td>1.00</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2020-04-07</td>
+      <td>7/4/2020</td>
       <td>1832.0</td>
-      <td>1891</td>
-      <td>97%</td>
+      <td>1891.0</td>
+      <td>0.97</td>
       <td>81.0</td>
-      <td>85</td>
-      <td>95%</td>
+      <td>85.0</td>
+      <td>0.95</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2020-04-08</td>
-      <td>1884</td>
-      <td>1929</td>
-      <td>98%</td>
-      <td>83</td>
-      <td>89</td>
-      <td>93%</td>
+      <td>8/4/2020</td>
+      <td>1884.0</td>
+      <td>1929.0</td>
+      <td>0.98</td>
+      <td>83.0</td>
+      <td>89.0</td>
+      <td>0.93</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2020-04-09</td>
-      <td>1955</td>
-      <td>1963</td>
-      <td>99%</td>
-      <td>86</td>
-      <td>91</td>
-      <td>94%</td>
+      <td>9/4/2020</td>
+      <td>1955.0</td>
+      <td>1963.0</td>
+      <td>0.99</td>
+      <td>86.0</td>
+      <td>91.0</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10/4/2020</td>
+      <td>2011.0</td>
+      <td>2005.0</td>
+      <td>0.99</td>
+      <td>90.0</td>
+      <td>94.0</td>
+      <td>0.96</td>
     </tr>
   </tbody>
 </table>
@@ -482,7 +479,39 @@ accur_df.head(len(accur_df)-1)
 
 
 
-### Reports History
+
+```python
+cases_accur = accur_df['Cases Accuracy'] * 100
+deaths_accur = accur_df['Deaths Accuracy'] * 100
+cases_evaluation = round(cases_accur.sum()/(len(accur_df)-1), 2)
+deaths_evaluation = round(deaths_accur.sum()/(len(accur_df)-1), 2)
+
+eval_df = pd.DataFrame(np.array([[cases_evaluation, deaths_evaluation]]),
+                   columns=['Cases Prediction Accuracy', 'Deaths Prediction Accuracy'])
+
+output4 = cases_evaluation.astype(str) + ' %'
+output5 = deaths_evaluation.astype(str) + ' %'
+```
+
+## Total Model Prediction Accuracy
+
+  + Cases Prediction Accuracy:  **97.17 %**
+  + Deaths Prediction Accuracy: **96.17 %**
+
+## New Predictions (2020-04-10)
+
+#### Total Cases Prediction
+
+  + Today: **2005**
+  + Tomorrow: **2042**
+  
+  
+#### Total Death Prediction
+
+  + Today: **94**
+  + Tomorrow: **98**
+
+##### Reports History
 - [2020-04-05 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/5-4-2020-report/main.md)
 - [2020-04-06 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/6-4-2020-report/main.md)
 - [2020-04-07 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/7-4-2020-report/main.md)
