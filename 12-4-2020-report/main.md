@@ -520,11 +520,4 @@ output5 = deaths_evaluation.astype(str) + ' %'
   + Tomorrow: **101**
 
 ##### Reports History
-- [2020-04-05 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/5-4-2020-report/main.md)
-- [2020-04-06 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/6-4-2020-report/main.md)
-- [2020-04-07 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/7-4-2020-report/main.md)
-- [2020-04-08 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/8-4-2020-report/main.md)
-- [2020-04-09 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/9-4-2020-report/main.md)
-- [2020-04-10 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/10-4-2020-report/main.md)
-- [2020-04-11 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/11-4-2020-report/main.md)
-- [2020-04-12 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/12-4-2020-report/main.md)
+- [Reports Hisory](https://github.com/mastavralis/dm-covid-19-greece/blob/master/README.md/#daily-reports)

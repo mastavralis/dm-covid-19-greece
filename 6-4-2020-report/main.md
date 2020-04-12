@@ -397,3 +397,7 @@ output3 = int(prediction[0])
 
   + Today: **79**
   + Tomorrow: **86**
+
+
+### Reports History
+- [Reports Hisory](https://github.com/mastavralis/dm-covid-19-greece/blob/master/README.md/#daily-reports)
