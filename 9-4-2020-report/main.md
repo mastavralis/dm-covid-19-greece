@@ -155,10 +155,8 @@ plt.show()
 deaths = country_df.loc[country_df.index[-1], "Deaths"]
 cases = country_df.loc[country_df.index[-1], "Confirmed"]
 dr = round((deaths / cases) * 100, 2)
-print('Mortality Rate is: ', dr, '%')
+# print('Mortality Rate is: ', dr, '%')
 ```
-
-    Mortality Rate is:  4.41 %
     
 
 ### Cases vs Deaths
