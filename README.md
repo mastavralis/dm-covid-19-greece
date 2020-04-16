@@ -54,4 +54,5 @@ A locall link will be created in order to navigate to the Jupyter project throug
 - [2020-04-13 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/13-4-2020-report/main.md)
 - [2020-04-14 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/14-4-2020-report/main.md)
 - [2020-04-15 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/15-4-2020-report/main.md)
+- [2020-04-16 - Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/16-4-2020-report/main.md)
 
