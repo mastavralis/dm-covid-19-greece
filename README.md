@@ -18,6 +18,13 @@
 ###### Notes:
 * The analysis is customised to read, analyze and predict data only for Greece. However, changing the "country" parameter on In [139] the Model can fetch and analyze data for other countries as well, but with a probability of wrong data visualization or a malfunction of the Model. Thus, it is not recommended by the author to perform analysis for other countries but Greece.
 
+## Total Model Prediction Accuracy (Based on the last report 16-04-2020)
+
+  + Cases Prediction Accuracy:  **97.83 %**
+  + Deaths Prediction Accuracy: **97.33 %**
+  + [Last Report](https://github.com/mastavralis/dm-covid-19-greece/blob/master/16-4-2020-report/main.md)
+
+
 ## Tools & Libraries
 + Required Tools
     - Python >= 3
