@@ -547,8 +547,8 @@ output5 = deaths_evaluation.astype(str) + ' %'
 
 ## Total Model Prediction Accuracy
 
-  + Cases Prediction Accuracy:  **97.82 %**
-  + Deaths Prediction Accuracy: **97.27 %**
+  + Cases Prediction Accuracy:  **97.83 %**
+  + Deaths Prediction Accuracy: **97.33 %**
 
 ## New Predictions (2020-04-16)
 
