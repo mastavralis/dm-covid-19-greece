@@ -550,15 +550,6 @@ output5 = deaths_evaluation.astype(str) + ' %'
   + Cases Prediction Accuracy:  **97.83 %**
   + Deaths Prediction Accuracy: **97.33 %**
 
-## New Predictions (2020-04-16)
-
-#### Total Cases Prediction
-
-  + Today: **2177**
-  
-#### Total Death Prediction
-
-  + Today: **103**
 
 ##### Reports History
 - [Reports Hisory](https://github.com/mastavralis/dm-covid-19-greece/blob/master/README.md/#daily-reports)
